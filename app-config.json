@@ -1,0 +1,30 @@
+{
+  "appName": "example",
+  "zones": {
+    "admin-profile-config-action": {
+      "enable": true,
+      "roles": ["MANAGER"]
+    },
+    "user-profile-config-block": {
+      "enable": true,
+      "hideTitle": true,
+      "height": 800
+    },
+    "admin-dashboard-primary-area-block": {
+      "enable": true,
+      "height": 500
+    },
+    "admin-chat-message-profile-block": {
+      "enable": true,
+      "roles": ["admin", "agent"],
+      "height": 300
+    },
+    "admin-chat-message-toolbar-action": {
+      "enable": true,
+      "roles": ["admin", "agent"]
+    },
+    "admin-extension-config-block": {
+      "enable": true
+    }
+  }
+}

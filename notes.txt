@@ -1,0 +1,8 @@
+TEST UI
+vite.config.js: comment
+    EnvironmentPlugin({
+        APP_ID: JSON.stringify(process.env.APP_ID),
+    }),
+containers/app.tsx: comment
+    const appId = process.env.APP_ID;
+    const router = createBrowserRouter(routes, { basename: `/extension/${appId}` });
