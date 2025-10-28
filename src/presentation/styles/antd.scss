@@ -159,6 +159,16 @@
   }
 }
 
+// Range picker
+.ant-picker-range {
+  .ant-picker-input {
+    flex: 1 1 0;
+    input {
+      text-align: center;
+    }
+  }
+}
+
 // Date picker
 @media (max-width: 648px) {
   .ant-picker-panels {

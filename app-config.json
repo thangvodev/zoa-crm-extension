@@ -12,16 +12,13 @@
     },
     "admin-dashboard-primary-area-block": {
       "enable": true,
-      "height": 500
+      "hideTitle": true
     },
     "admin-chat-message-profile-block": {
-      "enable": true,
-      "roles": ["admin", "agent"],
-      "height": 300
+      "enable": true
     },
     "admin-chat-message-toolbar-action": {
-      "enable": true,
-      "roles": ["admin", "agent"]
+      "enable": true
     },
     "admin-extension-config-block": {
       "enable": true
